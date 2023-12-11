@@ -1,0 +1,20 @@
+{
+  "name": "@app/config",
+  "version": "0.0.0",
+  "private": true,
+  "exports": {
+    "./*": "./src/*"
+  },
+  "typesVersions": {
+	  "*": {
+		  "*": [
+			  "./src/*"
+		  ]
+	  }
+  },
+  "devDependencies": {
+    "tailwindcss": "^3.3.5",
+    "@vercel/style-guide": "^5.1.0",
+    "eslint-config-turbo": "^1.10.16"
+  }
+}
